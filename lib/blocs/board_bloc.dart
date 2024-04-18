@@ -3,7 +3,6 @@ import 'package:chess_flutter/models/chess_piece.dart';
 import 'package:flutter/material.dart';
 import 'package:chess/chess.dart' as chess_pkg;
 import 'package:stockfish/stockfish.dart';
-import 'dart:ffi';
 
 class BoardBloc {
   final chess_pkg.Chess _chessGame;
